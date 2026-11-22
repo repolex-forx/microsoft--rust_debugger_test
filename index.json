@@ -1,0 +1,11 @@
+{
+  "org": "microsoft",
+  "repo": "rust_debugger_test",
+  "versions": [
+    {
+      "commit": "6b67e123861cc4a41505b4e8f7fb278e8cbc6c42",
+      "tag": "debugger_test_parser-0.2.0",
+      "parsed_at": "2026-11-22T09:59:25.039129+00:00"
+    }
+  ]
+}
