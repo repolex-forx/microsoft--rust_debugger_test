@@ -107,7 +107,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/6b67e123861cc4a41505b4e8f7fb278e8cbc6c42/chunk-001.nq.gz",
+      "dep": "dep/6b67e123861cc4a41505b4e8f7fb278e8cbc6c42.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
