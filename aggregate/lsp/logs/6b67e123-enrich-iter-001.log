@@ -1,0 +1,17 @@
+[2026-11-22T09:56:26Z] === ENRICH ITERATION 1 START | repo=microsoft/rust_debugger_test sha=6b67e123 ===
+[2026-11-22T09:56:26Z] [iter=1] PHASE START: enrich repo=microsoft/rust_debugger_test sha=6b67e123 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6b67e123-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6b67e123861cc4a41505b4e8f7fb278e8cbc6c42.nq.gz
+[2026-11-22T09:56:31Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T09:56:31Z] [iter=1] AST store loaded triples=23226 load_secs=0 mem_mb=116 MB
+[2026-11-22T09:56:31Z] [iter=1] Step 2: Finding LSP targets mem_mb=116 MB
+[2026-11-22T09:56:31Z] [iter=1] LSP targets found call_sites=226 imports=12 extends=0 implements=0 secs=0
+[2026-11-22T09:56:31Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=116 MB
+[2026-11-22T09:56:31Z] [iter=1] Position index built positions=1652 nodes_with_types=2015 secs=0 mem_mb=116 MB
+[2026-11-22T09:56:31Z] [iter=1] Step 3: Starting LSP resolution mem_mb=116 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T09:56:31Z] [iter=1] Resolving target type target_type=call_site count=226
+[2026-11-22T09:56:53Z] [iter=1] Target type resolved target_type=call_site resolved=140 errors=0 secs=22 mem_mb=116 MB
+[2026-11-22T09:56:53Z] [iter=1] Resolving target type target_type=import_statement count=12
+[2026-11-22T09:56:57Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=0.5 files_done=1 resolved=5 errors=0 current=src/lib.rs
+[2026-11-22T09:56:59Z] [iter=1] Target type resolved target_type=import_statement resolved=10 errors=0 secs=6 mem_mb=116 MB
+[2026-11-22T09:57:05Z] [iter=1] Step 5: Writing final enrichment file triples=1841
+[2026-11-22T09:57:05Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/6b67e123861cc4a41505b4e8f7fb278e8cbc6c42.nq.gz size_kb=27
+[2026-11-22T09:57:05Z] [iter=1] PHASE END: enrich elapsed_s=39 elapsed_min=0.7 total_triples=1841

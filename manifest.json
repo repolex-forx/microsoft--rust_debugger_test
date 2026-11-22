@@ -28,6 +28,85 @@
       ],
       "ast": [
         "aggregate/ast/6b67e123861cc4a41505b4e8f7fb278e8cbc6c42/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/6b67e123861cc4a41505b4e8f7fb278e8cbc6c42.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.40",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "704622f25d098b9e9925b93fbe2540745ff73f92",
+          "githubTag": "1.0.40",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "log",
+          "ecosystem": "CARGO",
+          "version": "0.4.17",
+          "githubOrg": "rust-lang",
+          "githubRepo": "log",
+          "githubCommit": "7fb28c36c7a418912612ab37ab49bd4ca1a3a7f5",
+          "githubTag": "0.4.17",
+          "githubUrl": "https://github.com/rust-lang/log",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.20",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "580174640767bc171f73d73ae3b84fbf44083a4f",
+          "githubTag": "1.0.20",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "debugger_test_parser",
+          "ecosystem": "CARGO",
+          "version": "0.1.0",
+          "githubOrg": "microsoft",
+          "githubRepo": "rust_debugger_test",
+          "githubCommit": "2c1afbc978766d7fb7ab82b279431f847dfadcd6",
+          "githubTag": "0.1.0",
+          "githubUrl": "https://github.com/microsoft/rust_debugger_test/debugger_test_parser",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "regex",
+          "ecosystem": "CARGO",
+          "version": "1.6.0",
+          "githubOrg": "rust-lang",
+          "githubRepo": "regex",
+          "githubCommit": "fc9ee6a249f2d594713c16b1646670924b33334d",
+          "githubTag": "1.6.0",
+          "githubUrl": "https://github.com/rust-lang/regex",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.107",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "ed8a5497669cd63db33bf24646f261b012bbbc4a",
+          "githubTag": "1.0.107",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.107/src/lib.rs"
+        }
       ]
     }
   ],
